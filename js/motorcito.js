@@ -3,6 +3,7 @@ var sonidoLicuadora = document.getElementById("blendersound");
 var botonLicuadora = document.getElementById("blender-button-sound");
 var licuadora = document.getElementById("blender");
 
+console.log('Ejecutando');
 
 function controlarLicuadora(){
   if (estadoLicuadora == "apagada"){
